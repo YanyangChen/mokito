@@ -35,6 +35,18 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		
+<!-- 		the dependency below is really important -->
+<!-- https://stackoverflow.com/questions/28022219/java-lang-noclassdeffounderror-org-objenesis-objenesisstd-with-mockito -->
+		<dependency>
+    			<groupId>org.mockito</groupId>
+    			<artifactId>mockito-core</artifactId>
+    			<version>1.10.19</version>
+    			<scope>test</scope>
+		</dependency>
+
+		
 	</dependencies>
 
 	<build>
